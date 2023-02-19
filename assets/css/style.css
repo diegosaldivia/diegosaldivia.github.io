@@ -163,19 +163,24 @@ h6 {
   white-space: nowrap;
 }
 
-/* line 138, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 137, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+.nav-menu h6 {
+  margin: 10px 0 10px 0 !important;
+}
+
+/* line 141, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .nav-menu a,
 .nav-menu a:focus {
   display: flex;
   align-items: center;
   color: #1E2022;
-  padding: 12px 15px;
+  padding: 7px 10px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
 }
 
-/* line 148, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 151, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .nav-menu a i,
 .nav-menu a:focus i {
   font-size: 24px;
@@ -183,7 +188,7 @@ h6 {
   color: #6f7180;
 }
 
-/* line 154, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 157, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
@@ -193,7 +198,7 @@ h6 {
   font-weight: 750;
 }
 
-/* line 162, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 165, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
@@ -201,7 +206,7 @@ h6 {
   color: #1E2022;
 }
 
-/* line 168, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 171, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
@@ -223,17 +228,17 @@ h6 {
   cursor: pointer;
 }
 
-/* line 188, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 191, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .mobile-nav-active {
   overflow: hidden;
 }
 
-/* line 190, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 193, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .mobile-nav-active #header {
   left: 0;
 }
 
-/* line 194, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 197, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 #hero {
   width: 100%;
   height: 100vh;
@@ -241,7 +246,7 @@ h6 {
   background-size: cover;
 }
 
-/* line 199, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 202, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
@@ -253,14 +258,14 @@ h6 {
   z-index: 1;
 }
 
-/* line 209, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 212, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 #hero .hero-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
 }
 
-/* line 214, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 217, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
@@ -269,32 +274,32 @@ h6 {
   color: #fff;
 }
 
-/* line 222, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 225, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 section {
   overflow: hidden;
 }
 
-/* line 225, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 228, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .section-bg {
   background: #f5f8fd;
 }
 
-/* line 228, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 231, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .section-title {
-  padding: 30px 0 30px 0;
+  padding: 30px 0 0 0;
 }
 
-/* line 230, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 234, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #1E2022;
+  color: #1E2022 !important;
 }
 
-/* line 237, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 241, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -306,37 +311,49 @@ section {
   left: 0;
 }
 
-/* line 248, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 252, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .section-title p {
   margin-bottom: 0;
 }
 
-/* line 254, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 257, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+.render-caption {
+  margin-top: 1em;
+}
+
+/* line 259, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+.render-caption p {
+  font-size: 1em;
+  margin-bottom: 0;
+  text-align: left !important;
+}
+
+/* line 267, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #1E2022;
 }
 
-/* line 259, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 272, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .about .content ul {
   list-style: none;
   padding: 0;
 }
 
-/* line 262, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 275, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
 
-/* line 267, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 280, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .about .content ul strong {
   margin-right: 10px;
 }
 
-/* line 270, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 283, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
@@ -344,23 +361,23 @@ section {
   line-height: 0;
 }
 
-/* line 278, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 291, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .about .content p:last-child {
   margin-bottom: 0;
 }
 
-/* line 287, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 300, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .facts {
   padding-bottom: 30px;
 }
 
-/* line 289, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 302, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .facts .count-box {
   padding: 30px;
   width: 100%;
 }
 
-/* line 292, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 305, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .facts .count-box i {
   display: block;
   font-size: 44px;
@@ -369,7 +386,7 @@ section {
   line-height: 0;
 }
 
-/* line 299, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 312, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .facts .count-box span {
   font-size: 48px;
   line-height: 40px;
@@ -379,7 +396,7 @@ section {
   margin-left: 60px;
 }
 
-/* line 307, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 320, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
@@ -388,7 +405,7 @@ section {
   color: #122f57;
 }
 
-/* line 314, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 327, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .facts .count-box a {
   font-weight: 600;
   display: block;
@@ -399,12 +416,12 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-/* line 322, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 335, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .facts .count-box a:hover {
   color: #1f5297;
 }
 
-/* line 329, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 342, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .skills .progress {
   height: 60px;
   display: block;
@@ -412,7 +429,7 @@ section {
   border-radius: 0;
 }
 
-/* line 334, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 347, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
@@ -423,19 +440,19 @@ section {
   color: #050d18;
 }
 
-/* line 342, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 355, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
 }
 
-/* line 348, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 361, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .skills .progress-bar-wrap {
   background: #dce8f8;
   height: 10px;
 }
 
-/* line 352, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 365, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .skills .progress-bar {
   width: 1px;
   height: 10px;
@@ -443,7 +460,7 @@ section {
   background-color: #1E2022;
 }
 
-/* line 360, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 373, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -452,7 +469,7 @@ section {
   color: #050d18;
 }
 
-/* line 367, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 380, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
@@ -460,7 +477,7 @@ section {
   position: relative;
 }
 
-/* line 372, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 385, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -471,7 +488,7 @@ section {
   margin-bottom: 10px;
 }
 
-/* line 381, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 394, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .resume .resume-item h5 {
   font-size: 16px;
   background: #e4edf9;
@@ -481,22 +498,22 @@ section {
   margin-bottom: 10px;
 }
 
-/* line 389, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 402, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .resume .resume-item ul {
   padding-left: 20px;
 }
 
-/* line 391, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 404, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .resume .resume-item ul li {
   padding-bottom: 10px;
 }
 
-/* line 395, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 408, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .resume .resume-item:last-child {
   padding-bottom: 0;
 }
 
-/* line 398, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 411, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .resume .resume-item::before {
   content: "";
   position: absolute;
@@ -509,12 +526,12 @@ section {
   border: 2px solid #1f5297;
 }
 
-/* line 412, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 425, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
-/* line 415, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 428, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -525,7 +542,7 @@ section {
   padding: 2px 15px;
 }
 
-/* line 423, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 436, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
@@ -539,12 +556,12 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 434, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 447, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
 
-/* line 439, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 452, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
@@ -552,7 +569,7 @@ section {
   z-index: 1;
 }
 
-/* line 444, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 457, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
@@ -566,7 +583,7 @@ section {
   opacity: 0;
 }
 
-/* line 456, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 469, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
@@ -579,7 +596,7 @@ section {
   justify-content: center;
 }
 
-/* line 466, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 479, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
   font-size: 28px;
@@ -589,17 +606,17 @@ section {
   width: 50%;
 }
 
-/* line 473, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 486, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: rgba(20, 157, 221, 0.95);
 }
 
-/* line 476, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 489, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #37b3ed;
 }
 
-/* line 482, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 495, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
@@ -608,35 +625,35 @@ section {
   opacity: 1;
 }
 
-/* line 489, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 502, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
 }
 
-/* line 496, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 509, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   color: #1E2022;
 }
 
-/* line 500, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 513, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details {
   padding-top: 40px;
 }
 
-/* line 503, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 516, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
 
-/* line 506, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 519, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-/* line 509, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 522, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -645,18 +662,18 @@ section {
   border: 1px solid #1E2022;
 }
 
-/* line 516, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 529, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #1E2022;
 }
 
-/* line 521, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 534, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
 }
 
-/* line 524, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 537, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
@@ -665,51 +682,51 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-/* line 531, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 544, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-/* line 536, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 549, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
-/* line 542, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 555, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details .portfolio-description {
   padding-top: 30px;
 }
 
-/* line 544, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 557, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-/* line 549, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 562, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
 
-/* line 555, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 568, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .services .icon-box {
   margin-bottom: 20px;
 }
 
-/* line 558, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 571, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .services .icon-box:hover .icon {
   background: #fff;
 }
 
-/* line 560, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 573, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .services .icon-box:hover .icon i {
   color: #1E2022;
 }
 
-/* line 566, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 579, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .services .icon {
   float: left;
   display: flex;
@@ -723,14 +740,14 @@ section {
   border: 1px solid #1E2022;
 }
 
-/* line 577, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 590, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .services .icon i {
   color: #fff;
   font-size: 24px;
   line-height: 0;
 }
 
-/* line 583, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 596, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .services .title {
   margin-left: 80px;
   font-weight: 700;
@@ -738,44 +755,44 @@ section {
   font-size: 18px;
 }
 
-/* line 588, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 601, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .services .title a {
   color: #343a40;
 }
 
-/* line 590, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 603, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .services .title a:hover {
   color: #1E2022;
 }
 
-/* line 595, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 608, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .services .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
 }
 
-/* line 601, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 614, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
 }
 
-/* line 606, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 619, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .testimonial-item {
   box-sizing: content-box;
   text-align: center;
   min-height: 320px;
 }
 
-/* line 610, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 623, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   margin: 0 auto;
 }
 
-/* line 615, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 628, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
@@ -783,21 +800,21 @@ section {
   color: #111;
 }
 
-/* line 621, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 634, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0;
 }
 
-/* line 626, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 639, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-/* line 631, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 644, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
@@ -805,7 +822,7 @@ section {
   top: 10px;
 }
 
-/* line 637, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 650, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 15px 15px 15px;
@@ -817,7 +834,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* line 646, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 659, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .testimonial-item p::after {
   content: "";
   width: 0;
@@ -830,13 +847,13 @@ section {
   left: calc(50% - 20px);
 }
 
-/* line 659, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 672, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-/* line 662, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 675, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -845,24 +862,24 @@ section {
   border: 1px solid #1E2022;
 }
 
-/* line 669, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 682, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #1E2022;
 }
 
-/* line 674, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 687, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
   color: #c3e8fa;
   font-size: 26px;
 }
 
-/* line 679, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 692, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact {
   padding: 80px 0 130px 0;
 }
 
-/* line 681, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 694, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .info {
   padding: 40px 30px 30px 30px;
   background: #fff;
@@ -870,7 +887,7 @@ section {
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-/* line 686, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 699, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .info i {
   font-size: 20px;
   color: #1E2022;
@@ -883,7 +900,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-/* line 697, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 710, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .info h6 {
   padding: 0 0 0 0;
   font-size: 0.8em;
@@ -892,24 +909,24 @@ section {
   color: #1E2022 !important;
 }
 
-/* line 704, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 717, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .info p {
   padding: 0 0 0 0;
   font-size: 14px;
   color: #1E2022;
 }
 
-/* line 710, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 723, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .info .email p {
   padding-top: 5px;
 }
 
-/* line 714, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 727, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .info .social-links {
   padding-left: 60px;
 }
 
-/* line 716, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 729, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -925,13 +942,13 @@ section {
   margin-right: 10px;
 }
 
-/* line 729, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 742, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .info .social-links a:hover {
   background: #1E2022;
   color: #fff;
 }
 
-/* line 736, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 749, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
@@ -939,13 +956,13 @@ section {
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
-/* line 741, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 754, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
   margin-bottom: 15px;
 }
 
-/* line 745, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 758, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form .validate {
   display: none;
   color: red;
@@ -954,7 +971,7 @@ section {
   font-size: 13px;
 }
 
-/* line 752, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 765, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
@@ -964,12 +981,12 @@ section {
   font-weight: 600;
 }
 
-/* line 760, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 773, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
-/* line 765, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 778, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
@@ -979,7 +996,7 @@ section {
   font-weight: 600;
 }
 
-/* line 773, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 786, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form .loading {
   display: none;
   background: #fff;
@@ -987,7 +1004,7 @@ section {
   padding: 15px;
 }
 
-/* line 778, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 791, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form .loading:before {
   content: "";
   display: inline-block;
@@ -1001,22 +1018,22 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-/* line 791, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 804, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form label {
   padding-bottom: 8px;
 }
 
-/* line 794, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 807, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form input {
   height: 44px;
 }
 
-/* line 797, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 810, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form textarea {
   padding: 10px 15px;
 }
 
-/* line 800, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 813, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form button[type=submit] {
   background: #1E2022;
   border: 0;
@@ -1026,12 +1043,12 @@ section {
   border-radius: 4px;
 }
 
-/* line 808, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 821, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form button[type=submit]:hover {
   background: #37b3ed;
 }
 
-/* line 813, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 826, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
@@ -1039,19 +1056,19 @@ section {
   font-size: 14px;
 }
 
-/* line 819, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 832, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .breadcrumbs {
   padding: 20px 0;
   background: #f9f9f9;
 }
 
-/* line 822, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 835, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .breadcrumbs h2 {
   font-size: 26px;
   font-weight: 300;
 }
 
-/* line 826, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 839, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
@@ -1061,12 +1078,12 @@ section {
   font-size: 15px;
 }
 
-/* line 834, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 847, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-/* line 836, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 849, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
@@ -1074,7 +1091,7 @@ section {
   content: "/";
 }
 
-/* line 846, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 859, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 #footer {
   padding: 15px;
   color: #f4f6fd;
@@ -1087,12 +1104,12 @@ section {
   background: #F0F5F9;
 }
 
-/* line 856, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 869, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 #footer .copyright {
   text-align: center;
 }
 
-/* line 859, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 872, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 #footer .credits {
   padding-top: 5px;
   text-align: center;
@@ -1100,7 +1117,7 @@ section {
   color: #eaebf0;
 }
 
-/* line 868, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 881, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 #p1-images {
   background: url(../img/pj1bg.webp) bottom center no-repeat;
   color: #F0F5F9;
@@ -1108,7 +1125,7 @@ section {
   background-size: cover;
 }
 
-/* line 875, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 888, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 #p2-images {
   background: url(../img/pj2bg.webp) bottom center no-repeat;
   color: #F0F5F9;
@@ -1116,17 +1133,17 @@ section {
   background-size: cover;
 }
 
-/* line 882, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 895, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .project h1, h2, h3, h4 {
   color: #F0F5F9 !important;
 }
 
-/* line 886, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 899, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .project .render {
   min-height: 300px;
 }
 
-/* line 891, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 904, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .project .render p {
   color: #fff;
   margin-bottom: 50px;
@@ -1134,7 +1151,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-/* line 896, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+/* line 909, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
 .project .render p span {
   color: #F0F5F9;
   padding-bottom: 4px;
@@ -1143,33 +1160,33 @@ section {
 }
 
 @media (max-width: 1199px) {
-  /* line 906, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+  /* line 919, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
   #header {
     left: -300px;
   }
-  /* line 910, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+  /* line 923, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
   #main {
     margin-left: 0;
   }
 }
 
 @media (max-width: 768px) {
-  /* line 917, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+  /* line 930, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
   .breadcrumbs .d-flex {
     display: block !important;
   }
-  /* line 921, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+  /* line 934, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
   .breadcrumbs ol {
     display: block;
   }
-  /* line 925, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+  /* line 938, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
   .breadcrumbs ol li {
     display: inline-block;
   }
 }
 
 @media (max-width: 1199px) {
-  /* line 931, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
+  /* line 944, D:/ProyectosPersonales/diegosaldivia/preassets/style.scss */
   #footer {
     position: static;
     width: auto;

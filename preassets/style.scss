@@ -134,13 +134,16 @@ h6 {
 			white-space: nowrap;
 		}
 	}
+	h6{
+		margin: 10px 0 10px 0 !important;
+	}
 }
 .nav-menu a,
 .nav-menu a:focus {
 	display: flex;
 	align-items: center;
 	color: $action-color;
-	padding: 12px 15px;
+	padding: 7px 10px;
 	margin-bottom: 8px;
 	transition: 0.3s;
 	font-size: 15px;
@@ -226,14 +229,15 @@ section {
 	background: #f5f8fd;
 }
 .section-title {
-	padding: 30px 0 30px 0;
+
+	padding: 30px 0 0 0;
 	h2 {
 		font-size: 32px;
 		font-weight: bold;
 		margin-bottom: 20px;
 		padding-bottom: 20px;
 		position: relative;
-		color: $titles;
+		color: $titles !important;
 		&::after {
 			content: "";
 			position: absolute;
@@ -247,6 +251,15 @@ section {
 	}
 	p {
 		margin-bottom: 0;
+	}
+}
+
+.render-caption {	
+	margin-top: 1em;
+	p {
+		font-size: 1em;
+		margin-bottom: 0;
+		text-align:left !important;
 	}
 }
 .about {
